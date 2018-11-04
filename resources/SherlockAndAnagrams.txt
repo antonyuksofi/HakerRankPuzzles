@@ -1,0 +1,10 @@
+Having an input string, find the amount of pairs of unordered anagrams within it.
+
+Unordered anagrams are strings, that have the same characters of the same amount.
+
+For example: abc, acb, bac, bca, cab, cba.
+
+The amount of pairs is:
+n! / ((n - 2)! * 2!) = n * (n - 1) / 2.
+
+For the anagrams above it is 6 * 5 / 2 = 15.
